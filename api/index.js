@@ -8,9 +8,6 @@ const postRoute = require('./routes/posts');
 const categoryRoute = require('./routes/categories');
 const multer = require('multer');
 const path = require('path');
-const bcrypt = require('bcrypt');
-
-module.exports.bcrypt = bcrypt;
 
 dotenv.config();
 app.use(express.json());
