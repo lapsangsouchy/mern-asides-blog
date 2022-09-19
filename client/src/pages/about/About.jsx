@@ -15,11 +15,10 @@ const About = () => {
             objectFit: 'cover',
           }}
         />
-        <p>I'm a nerdy little software developer based in Brooklyn, NY! :)</p>
-        <p>This was based on Lama Dev's MERN Blog tutorial on YouTube.</p>
+        <p>I'm a software developer based in Brooklyn, NY! :)</p>
         <p style={{ justifyContent: 'center' }}>
-          I'm planning on creating a new one with more customization using
-          Next.js and Ghost that I'll use with other collaborators.
+          This was my first attempt at building a blog that could be used by
+          multiple collaborators.
         </p>
         <p>But until then, enjoy my occasional musings here!</p>
       </div>
